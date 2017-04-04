@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["transform-es2015-modules-commonjs"],
+    ["transform-async-to-generator"],
+    ["transform-class-properties"],
+    ["transform-object-rest-spread"],
+    ["resolver", {"resolveDirs": ["src"]}]
+
+  ]
+
+}
