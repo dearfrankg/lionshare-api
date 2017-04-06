@@ -25,9 +25,20 @@ recommended
 - install `pm2` globally `npm install -g pm2`
 
 
-### Running the app
+### Development
+
+Provides live reaload while coding.
 
 ```shell
 yarn
-npm start
+yarn run dev
+```
+
+### Production
+
+Uses `pm2` for running production.
+
+```shell
+yarn
+yarn start
 ```
